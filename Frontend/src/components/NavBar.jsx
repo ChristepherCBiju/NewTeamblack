@@ -70,6 +70,7 @@ const Navbar = ({ user, setUser }) => {
           <Button component={Link} to="/" color="primary">Home</Button>
           <Button component={Link} to="/quiz" color="primary">Quiz</Button>
           <Button component={Link} to="/watched" color="primary">Watched</Button>
+          <Button component={Link} to="/about" color="primary">About</Button>
           {user && user.role === "admin" && (
             <>
               <Button
@@ -101,6 +102,7 @@ const Navbar = ({ user, setUser }) => {
                   </MenuItem>
                 ))}
               </Menu>
+              
             </>
           )}
           {user ? (
@@ -108,6 +110,7 @@ const Navbar = ({ user, setUser }) => {
           ) : (
             <Button component={Link} to="/login" color="primary">Login</Button>
           )}
+          
         </Box>
       </Container>
     </Box>

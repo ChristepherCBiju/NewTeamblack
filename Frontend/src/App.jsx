@@ -15,8 +15,11 @@ import Quiz from './components/Quiz';
 import Results from './components/Results';
 import Watched from './components/Watched';
 import AdminDashboard from './components/AdminDashboard';
+import About from './components/About';
+
 import HeroCarousel from './components/HeroCarousel';
 import MovieDetail from './components/MovieDetail';
+import Contact from './components/Contact';
 const theme = createTheme({
   palette: {
     mode: 'dark',
@@ -62,6 +65,8 @@ export default function App() {
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/results" element={<Results />} />
           <Route path="/watched" element={<Watched />} />
+           <Route path="/about" element={<About />} />
+           <Route path="/contact" element={<Contact />} />
           <Route path="/movie/:id" element={<MovieDetail />} /> 
         
           <Route path="/admin" element={user?.role === 'admin' ? <AdminDashboard /> : <Navigate to="/login" />} />
