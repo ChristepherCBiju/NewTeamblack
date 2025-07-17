@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import { Container, Card, CardContent, Typography, Button } from "@mui/material";
 import {
+  Container,
+  Card,
+  CardContent,
+  Typography,
   FormControl,
   FormLabel,
   RadioGroup,
@@ -8,13 +11,12 @@ import {
   Radio,
   FormGroup,
   Checkbox,
+  Button,
+  CircularProgress
 } from "@mui/material";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 const Quiz = () => {
-  const navigate = useNavigate();
-  const user = localStorage.getItem("user");
   const [step, setStep] = useState(0);
   const [mood, setMood] = useState("");
   const [company, setCompany] = useState("");
@@ -22,8 +24,9 @@ const Quiz = () => {
   const [ratings, setRatings] = useState([]);
   const [releaseRange, setReleaseRange] = useState("");
   const [occasion, setOccasion] = useState("");
-  const [recommendations, setRecommendations] = useState([]); 
-  const [guestMode, setGuestMode] = useState(false);
+  const [recommendations, setRecommendations] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const allGenres = ["Action", "Comedy", "Drama", "Sci-Fi", "Horror", "Romance"];
   const allRatings = ["G", "PG", "PG-13", "R", "NC-17"];
@@ -41,46 +44,33 @@ const Quiz = () => {
   };
 
   const handleSubmit = async () => {
+    setLoading(true);
+    setError("");
+    setRecommendations([]);
     try {
-      const response = await axios.post("http://localhost:3030/recommend", {
+      const response = await axios.post("http://localhost:5000/predict", {
         mood,
-        genres,
         company,
-        ratings,
+        genres: genres.join(","), // Convert arrays to comma-separated strings
+        ratings: ratings.join(","),
         releaseRange,
         occasion,
       });
-      setRecommendations(response.data);
-      console.log("Recommended movies:", response.data);
-    } catch (error) {
-      console.error("Error fetching recommendations", error);
+
+      const result = response.data.recommendation;
+
+      if (Array.isArray(result)) {
+        setRecommendations(result);
+      } else {
+        setRecommendations([result]);
+      }
+    } catch (err) {
+      setError("⚠️ Failed to fetch recommendations. Please try again.");
+      console.error(err);
+    } finally {
+      setLoading(false);
     }
   };
-
-  if (!user && !guestMode) {
-    return (
-      <Container maxWidth="sm" sx={{ mt: 5 }}>
-        <Card>
-          <CardContent>
-            <Typography variant="h6" color="error" gutterBottom>
-              Login to save the quiz history.
-            </Typography>
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={() => navigate("/login")}
-              sx={{ mr: 2 }}
-            >
-              Login
-            </Button>
-            <Button variant="outlined" onClick={() => setGuestMode(true)}>
-              Guest MODE
-            </Button>
-          </CardContent>
-        </Card>
-      </Container>
-    );
-  }
 
   return (
     <Container maxWidth="sm" sx={{ mt: 5 }}>
@@ -90,7 +80,7 @@ const Quiz = () => {
             Movie Preference Quiz
           </Typography>
 
-          {/* Quiz Steps */}
+          {/* Steps */}
           {step === 0 && (
             <FormControl fullWidth margin="normal">
               <FormLabel>What's your current mood?</FormLabel>
@@ -208,19 +198,26 @@ const Quiz = () => {
                 variant="contained"
                 color="primary"
                 onClick={handleSubmit}
-                disabled={!occasion}
+                disabled={!occasion || loading}
               >
-                Submit
+                {loading ? <CircularProgress size={24} color="inherit" /> : "Submit"}
               </Button>
             )}
           </div>
 
-          {/* 🎬 Recommendation Results */}
+          {/* Error Message */}
+          {error && (
+            <Typography color="error" sx={{ mt: 2 }}>
+              {error}
+            </Typography>
+          )}
+
+          {/* Recommendations Display */}
           {recommendations.length > 0 && (
             <div style={{ marginTop: 30 }}>
-              <Typography variant="h6">Recommended Movies:</Typography>
+              <Typography variant="h6">🎬 Recommended Movies:</Typography>
               {recommendations.map((movie, index) => (
-                <Typography key={index}>🎬 {movie.title}</Typography>
+                <Typography key={index}>• {movie}</Typography>
               ))}
             </div>
           )}
