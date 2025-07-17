@@ -4,14 +4,13 @@ const cors = require("cors");
 const app = express();
 const port = 3030;
 
-require("./Db"); // MongoDB connection
-const Movie = require("./Model"); // Mongoose model
-const User = require("./UserModel"); // User model
+require("./Db"); 
+const Movie = require("./Model");
+const User = require("./UserModel"); 
 
 app.use(cors());
 app.use(express.json());
 
-// Create admin user on server start if not exists
 (async () => {
   try {
     const adminUser = await User.findOne({ username: "admin" });
