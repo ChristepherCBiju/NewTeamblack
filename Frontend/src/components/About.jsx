@@ -6,7 +6,7 @@ const About = () => (
     style={{
       position: 'relative',
       minHeight: '100vh',
-      backgroundImage: `url('/your-background.jpg')`, // replace this with your actual image path
+      backgroundImage: `url('/wall2.jpg')`, 
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       paddingTop: '80px',
