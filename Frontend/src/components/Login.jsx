@@ -71,7 +71,7 @@ const Login = ({ setUser }) => {
       }}
     >
       <Container maxWidth="sm">
-        <Card sx={{ backgroundColor: 'rgba(0, 0, 0, 0.65)', color: 'white' }}>
+        <Card sx={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', color: 'white' }}>
           <CardContent>
             <Typography variant="h4" gutterBottom textAlign="center" fontWeight={600}>
               Login
