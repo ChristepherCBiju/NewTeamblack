@@ -1,0 +1,501 @@
+mood,company,genres,ratings,releaseRange,occasion,liked_movie
+chill,kids,"Horror,Sci-Fi",G,older,me-time,Yojimbo
+chill,kids,"Action,Sci-Fi","PG-13,PG",classic,party,Miserere
+thrilled,family,"Romance,Sci-Fi","NC-17,PG",recent,party,Deal of a Lifetime
+thrilled,partner,"Romance,Comedy,Sci-Fi",R,older,birthday,Warrior
+happy,friends,"Sci-Fi,Action",NC-17,mid,holiday,The Art of War III: Retribution
+chill,partner,Romance,PG,classic,me-time,Fireproof
+happy,partner,Comedy,G,classic,party,The Hateful Eight
+thrilled,partner,Action,"PG,G",older,casual,"Honey, We Shrunk Ourselves"
+happy,kids,Comedy,G,classic,party,Wool 100%
+sad,alone,Horror,NC-17,recent,me-time,The Darkest Dawn
+happy,friends,"Horror,Action",R,older,me-time,They Were Five
+chill,family,Sci-Fi,"PG,R",classic,date,Zombie Flesh Eaters
+happy,kids,Sci-Fi,"G,PG-13",older,holiday,El Bola
+sad,kids,Drama,PG-13,recent,birthday,Unicorn City
+thrilled,family,Action,NC-17,older,me-time,Aferim!
+happy,friends,Comedy,"PG,G",mid,me-time,7 Kocalı Hürmüz
+sad,alone,"Drama,Sci-Fi","PG-13,R",mid,date,Predestination
+thrilled,friends,"Sci-Fi,Horror,Action","PG-13,PG",recent,me-time,Power Trip
+chill,friends,Romance,"G,NC-17",classic,holiday,Christmas List
+chill,partner,"Horror,Sci-Fi,Action",PG,classic,date,Where's the Dragon?
+sad,kids,"Drama,Comedy,Action",G,classic,holiday,The Corn Is Green
+happy,friends,"Horror,Romance",R,older,casual,My Italian Secret: The Forgotten Heroes
+happy,partner,"Drama,Action","R,NC-17",classic,casual,Tezaab
+sad,partner,"Action,Comedy,Sci-Fi","PG-13,PG",older,date,Under New Management
+happy,family,Drama,G,mid,me-time,The House by the Cemetery
+sad,friends,Comedy,"G,PG",older,casual,No Orchids for Miss Blandish
+sad,kids,"Sci-Fi,Drama,Action",PG-13,older,me-time,The Deadly Mantis
+sad,alone,"Sci-Fi,Comedy","PG,PG-13",mid,party,Dragon Ball: Yo! Son Goku and Friends Return!!
+chill,family,"Horror,Drama,Comedy",PG,recent,birthday,Manichitrathazhu
+chill,kids,"Sci-Fi,Action","PG,G",older,holiday,The Hacker Wars
+sad,friends,"Action,Drama",PG-13,classic,casual,The Match King
+chill,alone,Romance,"PG,R",recent,date,Neapolitan Turk
+sad,partner,Horror,"PG,G",recent,holiday,A Matador's Mistress
+happy,friends,Sci-Fi,PG,recent,party,Connected
+chill,alone,"Horror,Romance,Action","R,PG",mid,party,The Unfaithful Wife
+happy,partner,"Romance,Comedy,Action","PG,R",recent,date,3 Needles
+thrilled,alone,"Horror,Sci-Fi","G,R",classic,me-time,Kundo: Age of the Rampant
+happy,family,"Drama,Sci-Fi,Action","R,PG-13",recent,casual,Assisted Living
+sad,alone,"Action,Comedy","G,PG",classic,me-time,Kilplased
+thrilled,alone,"Sci-Fi,Horror,Action",R,classic,birthday,Lady of Csejte
+happy,alone,"Romance,Horror,Action",PG-13,recent,holiday,Kiss through the Wall
+sad,friends,"Sci-Fi,Horror,Romance",PG-13,classic,party,The Touch of Her Flesh
+chill,family,"Horror,Romance,Sci-Fi",NC-17,classic,casual,Divina Confusión
+thrilled,alone,"Comedy,Action,Sci-Fi",NC-17,older,party,Metropolis
+happy,family,"Action,Sci-Fi","G,NC-17",classic,me-time,In Praise Of Older Women
+chill,family,"Romance,Sci-Fi",NC-17,recent,date,The Brothers Rico
+happy,friends,Drama,"R,G",classic,date,The Computer Wore Tennis Shoes
+thrilled,kids,Horror,PG,classic,holiday,The Back-Up Plan
+chill,family,Drama,PG,older,party,The Peacemaker
+chill,alone,"Horror,Romance,Action","NC-17,PG",mid,me-time,Triumph Over Violence
+sad,partner,Action,PG-13,older,date,Blue Hill Avenue
+happy,kids,"Horror,Drama,Sci-Fi","NC-17,PG-13",recent,date,Story of Night
+sad,kids,Comedy,PG,classic,party,Anne of Green Gables: The Sequel
+sad,alone,"Romance,Action",G,older,birthday,Intimate Strangers
+sad,family,"Action,Horror","R,PG",recent,me-time,Bed of Roses
+happy,kids,"Action,Comedy",G,older,birthday,Blood Done Sign My Name
+thrilled,kids,Comedy,G,older,birthday,Orbiter 9
+happy,alone,Romance,"G,R",older,me-time,Gold Diggers of 1933
+happy,partner,Sci-Fi,"G,PG-13",mid,me-time,Metropolitan
+chill,partner,"Drama,Horror,Sci-Fi",NC-17,classic,birthday,Children of Beslan
+chill,family,"Comedy,Action,Sci-Fi","PG,NC-17",classic,birthday,Flame of My Love
+happy,family,"Drama,Comedy,Sci-Fi",R,classic,date,The Vatican Tapes
+chill,partner,"Sci-Fi,Horror",PG,mid,party,Men to Kiss
+thrilled,family,"Romance,Sci-Fi,Horror","G,PG",mid,party,Freedom Riders
+sad,alone,"Sci-Fi,Comedy",G,older,me-time,Liza Minnelli: Liza With a Z
+sad,friends,"Action,Sci-Fi","NC-17,G",mid,me-time,Pat Garrett & Billy the Kid
+chill,family,"Romance,Drama,Horror",PG,classic,casual,Young Black Stallion
+chill,kids,Sci-Fi,"PG,G",older,me-time,EM
+happy,family,Drama,"R,G",classic,date,The Last Casino
+thrilled,partner,"Horror,Drama,Romance",R,classic,party,Middle School: The Worst Years of My Life
+chill,kids,"Drama,Comedy","R,NC-17",recent,party,Joyful Noise
+thrilled,partner,"Horror,Romance,Comedy","NC-17,PG",older,party,The Rescue
+thrilled,partner,"Drama,Romance","G,PG",older,holiday,For Lovers Only
+chill,partner,Romance,"R,G",recent,casual,Sorority Boys
+chill,friends,Sci-Fi,"PG,NC-17",classic,casual,Breaking the Girls
+happy,kids,"Sci-Fi,Action,Horror",NC-17,mid,holiday,Mein Kampf
+happy,partner,"Sci-Fi,Drama,Romance",R,older,holiday,La nao Capitana
+happy,kids,"Action,Comedy,Sci-Fi","R,NC-17",recent,me-time,The Fluffy Movie
+sad,friends,"Romance,Horror",R,recent,casual,Once Upon a Time in China II
+thrilled,kids,Horror,"PG,G",mid,holiday,Papadopoulos & Sons
+thrilled,family,"Romance,Sci-Fi","NC-17,G",older,holiday,The Greatest Man in Siam
+thrilled,partner,"Comedy,Horror","G,R",older,me-time,Right Cross
+thrilled,alone,"Action,Comedy,Horror",R,older,birthday,For Me and My Gal
+thrilled,alone,"Drama,Romance","PG-13,NC-17",older,holiday,Nobody's Fool
+thrilled,alone,"Action,Comedy","PG-13,R",classic,me-time,Bag of Bones
+sad,alone,"Action,Romance,Drama",PG-13,older,date,"A Man, a Woman and a Bank"
+happy,friends,Drama,PG,older,casual,All The Days Before Tomorrow
+chill,partner,Comedy,NC-17,older,me-time,Asterix and Cleopatra
+chill,partner,"Action,Horror,Sci-Fi",NC-17,older,holiday,Not My Type
+chill,family,"Sci-Fi,Drama,Horror",G,classic,party,The Mediator
+thrilled,friends,"Drama,Horror",G,mid,birthday,The Last of Sheila
+happy,kids,Comedy,"PG-13,NC-17",older,me-time,Den enskilde medborgaren
+thrilled,kids,"Romance,Comedy",G,older,date,Nixon by Nixon: In His Own Words
+happy,family,"Action,Drama",PG,mid,date,Adios Sabata
+chill,kids,"Horror,Sci-Fi,Romance","G,NC-17",recent,holiday,In Name Only
+chill,partner,"Romance,Comedy,Action",PG,recent,me-time,Tootsie
+sad,alone,Romance,G,recent,holiday,Chef
+sad,friends,Action,NC-17,mid,date,Robbery
+happy,family,"Romance,Sci-Fi",R,recent,party,Zvenigora
+happy,family,Romance,NC-17,mid,birthday,This Sporting Life
+sad,partner,"Romance,Sci-Fi,Comedy",PG,recent,casual,Daddy and the Muscle Academy
+chill,family,"Comedy,Romance","G,NC-17",older,me-time,Sex and the Teenage Mind
+happy,friends,"Drama,Sci-Fi",PG-13,older,holiday,Old Shatterhand
+happy,partner,"Action,Romance",PG-13,recent,date,The Jungle Book: Mowgli's Story
+happy,kids,"Comedy,Action","NC-17,PG",mid,holiday,Being There
+sad,kids,Sci-Fi,"R,NC-17",mid,birthday,Game For Vultures
+sad,partner,Action,"R,G",mid,party,Missing Pieces
+sad,alone,"Comedy,Action,Sci-Fi","PG-13,PG",classic,party,Zozo
+thrilled,friends,"Horror,Sci-Fi","PG,G",mid,birthday,My Name Is Nobody
+sad,kids,"Horror,Romance,Action","G,PG",recent,date,This Is My Father
+happy,friends,"Action,Comedy,Horror",G,mid,birthday,Lokmanya: Ek Yug Purush
+happy,family,"Horror,Sci-Fi,Comedy","NC-17,PG",classic,holiday,Lovesick
+happy,family,"Drama,Horror",G,recent,me-time,Soldier
+sad,family,"Romance,Comedy","PG,G",classic,date,The Up in Smoke Tour
+happy,kids,"Action,Romance",R,older,date,La Vérité si je Mens ! 3
+thrilled,partner,"Horror,Comedy,Action","G,NC-17",older,birthday,Legend No. 17
+sad,friends,"Sci-Fi,Romance","NC-17,PG",classic,party,Hindle Wakes
+happy,kids,Drama,PG,recent,date,Zen
+sad,alone,Horror,"G,PG-13",recent,casual,Phantom
+happy,friends,"Sci-Fi,Romance,Drama",R,mid,me-time,A Street Cat Named Bob
+thrilled,partner,"Horror,Drama",NC-17,mid,date,Flying
+chill,partner,"Action,Drama",PG-13,classic,me-time,Paradise Road
+happy,partner,"Romance,Horror,Action",R,mid,me-time,Counsellor at Law
+happy,kids,"Drama,Comedy","PG-13,PG",classic,me-time,Spiders
+thrilled,family,"Horror,Drama","NC-17,PG",mid,party,Dirty Pretty Things
+sad,family,"Action,Sci-Fi,Comedy","G,R",older,holiday,Cantinflas
+happy,alone,"Drama,Romance,Sci-Fi","NC-17,PG-13",recent,me-time,Big Jim McLain
+chill,alone,Sci-Fi,"PG,R",classic,me-time,Our RoboCop Remake
+happy,partner,"Romance,Comedy",R,mid,date,Vengeance Can Wait
+sad,alone,"Drama,Romance,Action",G,older,casual,Beyond the Clouds
+sad,alone,Romance,"G,R",mid,casual,Wintergartenprogramm
+chill,partner,"Romance,Drama,Action","PG-13,PG",older,party,Seconds Apart
+thrilled,kids,"Romance,Action,Comedy","R,G",classic,birthday,Scooby-Doo! Frankencreepy
+thrilled,kids,Comedy,G,mid,birthday,God Loves Uganda
+chill,friends,"Sci-Fi,Comedy,Action",PG-13,mid,party,Brothers
+sad,friends,"Horror,Action,Romance",R,classic,birthday,Moonrise Kingdom
+thrilled,kids,"Comedy,Romance,Sci-Fi","PG,G",classic,casual,Hot Shots! Part Deux
+happy,partner,Horror,PG,older,party,Miracles from Heaven
+sad,kids,"Romance,Action",PG,classic,casual,Women Who Flirt
+thrilled,family,"Romance,Comedy","PG,NC-17",recent,casual,The Prizefighter and the Lady
+happy,family,"Comedy,Horror,Sci-Fi",PG-13,older,birthday,Graduation Day
+sad,partner,"Horror,Romance,Sci-Fi",G,recent,casual,Colo
+thrilled,partner,"Romance,Action","R,PG-13",mid,party,Cahill U.S. Marshal
+thrilled,friends,"Sci-Fi,Horror","PG,PG-13",older,birthday,Love in the Time of Hysteria
+thrilled,friends,"Sci-Fi,Comedy",R,mid,birthday,Detective Chinatown
+chill,alone,"Action,Comedy,Drama","NC-17,G",recent,casual,Assassins Tale
+chill,partner,Drama,PG,mid,date,Manon
+thrilled,kids,"Drama,Horror",G,older,holiday,Imaginaerum
+thrilled,family,"Horror,Sci-Fi","R,PG",recent,birthday,Just Cause
+thrilled,friends,"Horror,Drama",PG-13,recent,holiday,Die zwölf Geschworenen
+sad,alone,Action,R,recent,casual,Shark Week
+happy,alone,Horror,PG-13,recent,casual,Left Behind
+chill,friends,Romance,PG-13,recent,party,Man in the Attic
+chill,family,Drama,R,recent,casual,Banana Pancakes and the Children of Sticky Rice
+chill,alone,"Romance,Comedy,Sci-Fi",PG-13,mid,party,Shocking Asia
+thrilled,partner,Horror,G,mid,party,Girls Town
+thrilled,partner,"Action,Sci-Fi","NC-17,G",recent,holiday,I'm No Angel
+thrilled,family,"Romance,Action,Sci-Fi",G,recent,party,Batman & Mr. Freeze: SubZero
+chill,family,Sci-Fi,G,classic,me-time,Triple Cross
+chill,alone,"Action,Comedy,Romance","PG-13,G",mid,casual,Moonrise Kingdom
+thrilled,family,"Action,Drama",PG,mid,me-time,"End of Days, Inc."
+happy,friends,Sci-Fi,NC-17,recent,date,A Pig's Tale
+thrilled,partner,Action,G,older,party,Carry On Again Doctor
+happy,kids,"Horror,Action,Sci-Fi",R,recent,me-time,The Perfect Neighbor
+sad,family,"Drama,Horror",R,recent,holiday,Greetings From Fukushima
+chill,kids,"Romance,Sci-Fi,Drama",NC-17,recent,holiday,Growing Up Smith
+chill,friends,"Drama,Sci-Fi,Action",PG,mid,me-time,"Die, Mommie, Die!"
+happy,alone,Romance,PG,classic,date,Tab Hunter Confidential
+chill,kids,"Drama,Horror",R,classic,casual,A perfect match
+happy,friends,"Drama,Comedy,Sci-Fi","G,R",mid,birthday,Raakh
+chill,family,"Drama,Action","G,NC-17",recent,casual,A Brother's Kiss
+sad,partner,"Action,Sci-Fi,Romance",R,mid,holiday,Zombie Flesh Eaters
+thrilled,kids,"Romance,Comedy",R,classic,holiday,Lucie Aubrac
+chill,family,"Sci-Fi,Comedy",NC-17,older,holiday,Prince of Central Park
+thrilled,friends,"Sci-Fi,Drama","NC-17,PG-13",recent,holiday,Phool Aur Kaante
+sad,partner,"Sci-Fi,Comedy,Drama",NC-17,recent,holiday,Fantômas: The Dead Man Who Killed
+happy,family,"Drama,Sci-Fi,Romance","G,NC-17",mid,party,A Hungarian Fairy Tale
+chill,kids,"Sci-Fi,Horror","PG-13,NC-17",mid,holiday,The Children Are Watching Us
+thrilled,partner,Horror,"NC-17,R",classic,me-time,Shaolin Temple 2: Kids from Shaolin
+chill,kids,"Drama,Sci-Fi,Comedy",PG,mid,birthday,Muhammad: The Messenger of God
+chill,family,Horror,PG-13,mid,me-time,Long Arm of the Law
+chill,kids,"Romance,Comedy,Sci-Fi",R,classic,holiday,Man's Best Friend
+thrilled,friends,"Romance,Comedy","NC-17,PG-13",older,birthday,The Dark
+thrilled,partner,"Horror,Comedy",PG-13,recent,party,Big Easy Express
+chill,alone,"Romance,Drama,Action",PG,mid,date,The Red Badge of Courage
+chill,alone,"Sci-Fi,Action,Horror",NC-17,classic,party,Heartbreak Ridge
+happy,alone,Drama,PG-13,recent,holiday,Herman U.S.A.
+happy,partner,Romance,"R,NC-17",mid,party,Running on Karma
+sad,friends,"Action,Romance",G,recent,date,Silver Bullet
+thrilled,kids,"Action,Sci-Fi","PG-13,R",classic,birthday,The Square
+happy,partner,Action,"NC-17,R",recent,casual,Ricky Rapper
+thrilled,partner,Drama,NC-17,older,me-time,Burning Down the House
+happy,alone,Drama,G,older,casual,Comrades: Almost a Love Story
+happy,kids,"Sci-Fi,Comedy","NC-17,PG-13",older,party,Sabata
+sad,friends,"Comedy,Sci-Fi,Drama",PG-13,mid,holiday,Anzio
+chill,kids,"Sci-Fi,Drama,Comedy","R,PG-13",recent,date,5th Day of Peace
+chill,partner,Romance,PG-13,recent,date,2001 Maniacs
+chill,alone,Horror,G,recent,birthday,The Bonnie Parker Story
+thrilled,partner,"Comedy,Horror,Romance","G,PG-13",mid,birthday,Montenegro
+thrilled,family,"Drama,Comedy",G,mid,date,Marquis
+sad,partner,Action,"NC-17,G",classic,party,Rudy
+thrilled,partner,"Drama,Action,Sci-Fi",NC-17,recent,party,Persona
+happy,friends,Horror,"NC-17,PG",recent,date,The Railrodder
+sad,alone,"Action,Horror",PG,classic,me-time,The Pink Panther Strikes Again
+happy,alone,"Romance,Comedy","G,PG-13",mid,casual,The Last of the Finest
+thrilled,friends,"Romance,Horror,Comedy",R,older,date,"Bianco, rosso e Verdone"
+thrilled,family,"Horror,Sci-Fi,Drama","R,PG-13",recent,casual,Beneath the Blue
+thrilled,friends,"Romance,Sci-Fi,Comedy","NC-17,G",mid,party,Rust and Bone
+chill,kids,Action,PG,classic,party,That Girl From Paris
+happy,alone,Sci-Fi,"PG,NC-17",older,party,Mourning Son
+thrilled,family,Comedy,R,classic,me-time,The FP
+happy,partner,"Romance,Comedy,Drama","NC-17,PG-13",mid,holiday,Chocolate City
+sad,kids,"Horror,Drama",PG-13,older,party,Revenge of the Nerds II: Nerds in Paradise
+sad,kids,"Horror,Sci-Fi,Action","NC-17,G",recent,holiday,Support Your Local Gunfighter
+sad,partner,"Sci-Fi,Action",R,recent,casual,Street of Crocodiles
+chill,friends,"Horror,Drama,Sci-Fi",PG,older,date,An Inspector Calls
+chill,partner,"Action,Romance,Horror","PG-13,PG",recent,date,The Questor Tapes
+thrilled,family,"Drama,Horror",G,classic,date,"Walk Softly, Stranger"
+sad,alone,"Comedy,Sci-Fi",G,recent,date,The Night Heaven Fell
+sad,family,Horror,"NC-17,R",classic,me-time,The Blancheville Monster
+chill,family,Romance,PG,recent,party,Unforgivable
+happy,family,"Horror,Action,Sci-Fi","R,PG-13",mid,party,When Marnie Was There
+sad,kids,"Comedy,Romance","G,R",older,party,The Revolution Will Not Be Televised
+happy,family,"Drama,Sci-Fi,Romance","G,R",recent,me-time,Three Miles North of Molkom
+happy,alone,"Romance,Comedy,Sci-Fi",PG,classic,date,Spiral Jetty
+happy,friends,"Romance,Comedy",PG,mid,birthday,Mitt
+sad,friends,"Action,Comedy,Horror","PG,G",classic,party,Foxy and the Weight of the World
+chill,friends,Action,G,recent,birthday,The Sicilian Connection
+chill,kids,"Drama,Romance","PG-13,NC-17",recent,me-time,Army of Crime
+chill,partner,"Romance,Action,Sci-Fi","PG,G",classic,holiday,Fire in Babylon
+happy,friends,"Romance,Drama,Horror","NC-17,PG",mid,birthday,The Lover
+thrilled,kids,"Comedy,Action,Drama",NC-17,classic,me-time,Circumstance
+sad,family,"Horror,Drama,Comedy","PG-13,R",mid,birthday,"Hijacking Catastrophe: 9/11, Fear & the Selling of American Empire"
+sad,kids,Action,"NC-17,PG-13",classic,date,Die letzte Rache
+happy,alone,"Comedy,Sci-Fi,Romance","R,PG",older,casual,Beneath the Dark
+chill,family,Horror,PG-13,older,holiday,Emotion
+chill,friends,"Action,Horror,Drama","PG-13,NC-17",older,holiday,Fist Fight
+sad,friends,"Action,Horror,Romance",NC-17,recent,birthday,As Cool as I Am
+thrilled,kids,"Comedy,Romance,Horror","NC-17,PG",classic,holiday,3 Needles
+chill,friends,"Sci-Fi,Action","PG,R",recent,me-time,Satan Triumphant
+happy,family,"Horror,Sci-Fi",PG-13,older,party,The Mighty Quinn
+thrilled,alone,Sci-Fi,NC-17,classic,birthday,No Blade of Grass
+thrilled,kids,"Comedy,Horror,Sci-Fi",PG,classic,date,Gen-X Cops
+happy,kids,"Sci-Fi,Action","R,NC-17",recent,party,Red Persimmons
+happy,alone,"Drama,Comedy","PG,NC-17",mid,party,The Lifeguard
+happy,family,Sci-Fi,PG-13,recent,birthday,Uninhabited
+thrilled,friends,"Action,Romance","NC-17,G",recent,holiday,Any Wednesday
+sad,family,Comedy,PG,older,holiday,Prospero's Books
+sad,alone,Comedy,"NC-17,PG-13",mid,holiday,This Land Is Mine
+sad,kids,"Comedy,Action,Drama","G,NC-17",older,holiday,Lou
+thrilled,alone,"Action,Horror","PG,G",classic,casual,The Bling Ring
+chill,partner,"Sci-Fi,Action,Drama","R,PG-13",recent,date,Filth
+chill,alone,"Romance,Sci-Fi",R,older,holiday,Pete Smalls Is Dead
+thrilled,partner,"Comedy,Drama,Romance","PG-13,R",older,birthday,The Imperceptable Transmutations
+sad,family,"Drama,Sci-Fi","PG-13,R",older,date,Dock Ellis & The LSD No-No
+sad,kids,"Horror,Sci-Fi",R,older,birthday,We Are Legion: The Story of the Hacktivists
+happy,alone,Sci-Fi,G,classic,birthday,Purpose
+sad,family,Sci-Fi,R,recent,me-time,Dumbland
+thrilled,friends,Action,PG,older,me-time,Tension
+chill,alone,"Horror,Drama,Action","PG,PG-13",classic,date,Erkan & Stefan 3
+thrilled,partner,"Sci-Fi,Horror",PG,recent,party,Space Buddies
+thrilled,partner,"Sci-Fi,Action,Drama","PG,NC-17",older,me-time,Being 17
+sad,alone,Drama,NC-17,classic,casual,The Rape of Europa
+thrilled,partner,"Action,Comedy,Horror","PG-13,R",recent,date,Zombies on Broadway
+thrilled,friends,"Romance,Comedy,Sci-Fi","G,R",older,birthday,Baby the Rain Must Fall
+sad,alone,Horror,"NC-17,G",recent,holiday,They Died with Their Boots On
+sad,kids,"Sci-Fi,Action","G,NC-17",recent,party,Pleasure Cruise
+happy,family,Action,"PG-13,NC-17",mid,me-time,Mrs. Lambert Remembers Love
+thrilled,friends,"Drama,Horror",PG,recent,birthday,Win/Win
+chill,kids,"Sci-Fi,Action","NC-17,PG",older,date,A Man Called Gannon
+chill,friends,"Drama,Horror,Comedy",NC-17,recent,date,The Lady Says No
+sad,alone,"Horror,Sci-Fi",PG,recent,casual,Hum Dil De Chuke Sanam
+happy,family,"Action,Comedy",R,older,holiday,An American Terror
+sad,kids,"Horror,Sci-Fi,Action",NC-17,older,casual,Spartan
+chill,alone,"Comedy,Romance",NC-17,mid,date,11 Blocks
+sad,partner,"Sci-Fi,Romance","NC-17,PG-13",recent,holiday,Sniper 3
+thrilled,kids,"Comedy,Romance","PG,NC-17",recent,date,Klitschko
+thrilled,partner,"Drama,Action,Sci-Fi","G,R",mid,birthday,A Month of Sundays
+chill,alone,Comedy,"R,G",older,casual,Maladies
+chill,friends,Action,"PG,PG-13",classic,me-time,Dinosaurus!
+chill,kids,"Action,Sci-Fi","NC-17,PG",recent,birthday,The Americanization of Emily
+chill,partner,"Horror,Comedy,Action",PG-13,mid,birthday,All Souls' Day
+happy,friends,Drama,PG-13,mid,casual,Munchies
+sad,kids,"Romance,Drama,Action",G,older,holiday,Man of Her Dreams
+happy,kids,"Horror,Action,Sci-Fi",NC-17,recent,casual,Drive a Crooked Road
+thrilled,partner,"Comedy,Horror",NC-17,mid,party,Devil Times Five
+thrilled,kids,Drama,NC-17,classic,party,The Lunchbox
+thrilled,partner,"Action,Comedy,Drama",PG,mid,holiday,Soaked in Bleach
+thrilled,kids,Drama,"NC-17,G",classic,date,"The Pit, the Pendulum and Hope"
+sad,friends,Drama,"NC-17,PG-13",classic,birthday,Dance of the Dead
+happy,kids,"Comedy,Sci-Fi,Romance","NC-17,R",mid,party,Red State
+chill,partner,Romance,NC-17,mid,birthday,What Would Jesus Buy?
+thrilled,alone,Romance,PG,classic,holiday,Christine
+chill,friends,Action,"R,PG-13",recent,me-time,A Sunday Horse
+happy,friends,Action,"PG,R",mid,birthday,Summer Things
+chill,family,"Horror,Drama","R,PG",older,holiday,The Possession of Joel Delaney
+chill,partner,Action,"PG-13,G",older,date,RockNRolla
+chill,kids,"Action,Romance,Sci-Fi",R,mid,date,Paris Under Watch
+sad,family,"Action,Sci-Fi,Horror","NC-17,PG-13",mid,casual,When Darkness Falls
+sad,friends,"Drama,Action",NC-17,classic,holiday,My Super Psycho Sweet 16: Part 2
+thrilled,alone,Horror,"G,PG-13",recent,casual,The Fearless Freaks
+thrilled,friends,"Romance,Sci-Fi,Drama",PG,older,holiday,RED
+happy,alone,"Action,Comedy,Horror","G,PG-13",classic,me-time,Another Face
+sad,alone,"Sci-Fi,Comedy",PG,classic,casual,From the Orient with Fury
+thrilled,friends,Drama,"R,G",classic,date,Scene from the Elevator Ascending Eiffel Tower
+sad,alone,"Action,Drama",PG,recent,party,Faustina
+sad,friends,"Sci-Fi,Action,Romance",PG-13,older,party,Lavoura Arcaica
+chill,alone,"Horror,Sci-Fi","NC-17,PG-13",older,party,The Hustler
+sad,friends,"Horror,Comedy","PG-13,G",mid,me-time,Cat-Women of the Moon
+thrilled,friends,"Horror,Drama,Romance","PG,R",older,casual,Sharpay's Fabulous Adventure
+thrilled,partner,"Romance,Sci-Fi",R,older,party,Avengers Confidential: Black Widow & Punisher
+happy,family,"Horror,Comedy,Sci-Fi",NC-17,classic,date,The Secret Country: The First Australians Fight Back
+thrilled,kids,"Drama,Comedy,Romance","PG-13,R",classic,casual,Endless Poetry
+chill,alone,"Romance,Sci-Fi","PG,PG-13",recent,holiday,Made in Hungaria
+chill,family,Drama,"R,PG-13",mid,me-time,Tobruk
+thrilled,family,"Sci-Fi,Drama","PG-13,G",mid,party,Summer of '42
+chill,kids,Comedy,"R,G",mid,me-time,Disturbing the Peace
+thrilled,friends,Action,"PG-13,R",recent,casual,Legion
+thrilled,family,"Horror,Drama",NC-17,classic,date,Paul
+chill,family,"Comedy,Romance","PG-13,R",recent,date,D.E.B.S.
+thrilled,alone,Romance,G,mid,holiday,Gervaise
+chill,alone,Action,R,classic,date,La Domination Masculine
+thrilled,partner,"Romance,Comedy","PG,R",older,casual,Oh How It Hurts 66
+thrilled,family,Romance,"NC-17,R",recent,party,Darna Zaroori Hai
+chill,family,"Sci-Fi,Drama",PG,classic,casual,The Sicilian
+chill,alone,"Romance,Sci-Fi,Comedy","PG,NC-17",classic,date,"Dr. Syn, Alias the Scarecrow"
+happy,family,Drama,"PG,G",older,holiday,Heaven Can Wait
+chill,family,Horror,"NC-17,PG",older,holiday,Partners
+happy,kids,Comedy,PG,classic,holiday,Eichmann
+chill,partner,Action,"PG-13,PG",recent,party,The Tourist
+thrilled,alone,"Sci-Fi,Romance","G,PG-13",older,holiday,Hachi-ko
+happy,family,"Comedy,Drama,Action",PG,older,birthday,Where the Heart Is
+sad,friends,"Horror,Romance,Action","NC-17,PG",classic,date,Dracula: Prince of Darkness
+chill,partner,"Sci-Fi,Drama",PG-13,mid,party,Don't Tell Anyone
+thrilled,friends,"Comedy,Romance,Action",G,older,birthday,The Zohar Secret
+happy,kids,"Romance,Horror,Comedy",NC-17,classic,date,A Moment of Innocence
+happy,kids,Horror,"PG,R",recent,party,Bye Bye Germany
+chill,alone,"Action,Drama","NC-17,G",mid,me-time,Felicity
+sad,alone,Drama,NC-17,mid,birthday,Skate Or Die
+thrilled,kids,Horror,PG,recent,holiday,"Chau, Beyond the Lines"
+chill,friends,"Action,Drama,Sci-Fi","G,NC-17",mid,casual,Flight of the Living Dead: Outbreak on a Plane
+thrilled,alone,"Drama,Comedy","PG-13,NC-17",classic,me-time,In Darkness
+happy,alone,Action,PG-13,mid,party,Went to Coney Island on a Mission from God... Be Back by Five
+thrilled,friends,Sci-Fi,"NC-17,G",classic,birthday,Varsity Blood
+sad,alone,"Romance,Drama,Action","NC-17,PG-13",classic,casual,The Day After Trinity
+thrilled,alone,"Sci-Fi,Comedy",G,mid,party,Billy Jack
+sad,family,"Drama,Horror",PG,older,birthday,21 Years: Richard Linklater
+happy,kids,"Romance,Horror","R,G",recent,party,The Adventures of Elmo in Grouchland
+chill,friends,Drama,"PG,NC-17",classic,casual,Murder at 1600
+happy,friends,"Action,Comedy,Drama",R,recent,date,Kabul Express
+chill,alone,"Romance,Drama",R,older,casual,The Ascent
+chill,friends,Romance,"G,PG-13",classic,holiday,I Wish
+chill,family,"Romance,Drama","NC-17,PG",mid,me-time,Witch's Night Out
+sad,alone,Horror,G,mid,me-time,Persuasion
+happy,friends,Horror,"NC-17,PG",recent,party,About Adam
+happy,family,"Action,Comedy,Sci-Fi",NC-17,recent,party,Thoroughbreds Don't Cry
+chill,partner,"Drama,Sci-Fi,Action","PG-13,NC-17",mid,date,Bugs Bunny and the Three Bears
+sad,family,Comedy,"NC-17,G",classic,me-time,Female Perversions
+sad,partner,"Sci-Fi,Drama",NC-17,recent,casual,A Royal Scandal
+chill,alone,Comedy,NC-17,mid,casual,"Hush... Hush, Sweet Charlotte"
+sad,friends,"Romance,Sci-Fi,Horror","G,R",recent,date,La libertad
+chill,family,"Comedy,Sci-Fi",R,recent,casual,A Chinese Ghost Story
+happy,family,Comedy,R,older,party,Peek-a-boo
+thrilled,kids,Action,"PG,PG-13",older,date,Vicious Lips
+thrilled,partner,"Sci-Fi,Drama",G,older,birthday,Scent of a Woman
+sad,alone,"Horror,Comedy,Drama","PG-13,R",older,me-time,Billy Budd
+chill,friends,Sci-Fi,PG-13,older,casual,Miss Peregrine's Home for Peculiar Children
+thrilled,alone,Action,"R,NC-17",older,me-time,Daughter... Father... Daughter
+chill,alone,"Horror,Drama","G,PG",mid,casual,Hôtel des Invalides
+happy,friends,Drama,"NC-17,G",mid,holiday,Kidnapping Mr. Heineken
+chill,family,Sci-Fi,NC-17,older,birthday,In & Out
+sad,family,Sci-Fi,NC-17,recent,casual,Roman Polanski: Odd Man Out
+thrilled,friends,"Romance,Action","PG-13,PG",recent,birthday,After the Rain
+thrilled,kids,Drama,"R,PG-13",mid,me-time,30 Nights of Paranormal Activity With the Devil Inside the Girl With the Dragon Tattoo
+chill,partner,Comedy,R,mid,party,Salvador
+happy,partner,"Horror,Sci-Fi,Action",R,classic,party,Hollywoodland
+chill,friends,Drama,G,older,party,The Legend of Boggy Creek
+happy,alone,"Comedy,Sci-Fi,Romance","PG,NC-17",mid,casual,Arc
+chill,partner,Romance,"R,NC-17",mid,date,Baadasssss!
+chill,partner,"Drama,Romance,Horror","R,PG-13",mid,party,The Story of G.I. Joe
+thrilled,alone,"Action,Horror,Drama",NC-17,older,me-time,Nowhere
+chill,partner,Romance,"R,PG-13",classic,casual,Show
+happy,friends,Romance,G,recent,date,Here We Go Round the Mulberry Bush
+thrilled,family,Drama,"PG-13,R",mid,date,American Anthem
+happy,partner,"Romance,Sci-Fi",PG-13,older,birthday,Burning Man
+chill,kids,Drama,"G,R",classic,date,Hotarubi no Mori e
+thrilled,partner,Romance,NC-17,classic,casual,The Deadly Companions
+happy,kids,Comedy,PG-13,older,date,Puppet Master: Axis of Evil
+thrilled,alone,"Comedy,Drama,Romance","G,PG",mid,holiday,Pharaoh's Curse
+thrilled,friends,Comedy,PG-13,classic,party,Ordet
+thrilled,alone,"Romance,Sci-Fi",PG,older,birthday,"What's Up, Scarlet?"
+thrilled,partner,"Drama,Action","PG,G",mid,date,The Land Unknown
+sad,kids,"Drama,Horror,Comedy",PG,recent,date,The Red Squirrel
+sad,alone,"Comedy,Sci-Fi",R,classic,party,The Straw Hat
+chill,kids,"Romance,Comedy,Sci-Fi","NC-17,PG-13",older,holiday,Tupac: Resurrection
+happy,friends,Romance,PG,classic,party,Lammbock
+happy,friends,Horror,R,classic,birthday,Man of Her Dreams
+chill,alone,"Drama,Action,Romance",PG-13,mid,party,Captain Thunder
+chill,friends,"Horror,Comedy,Drama","NC-17,PG-13",mid,holiday,Central Airport
+thrilled,friends,Horror,"R,PG-13",older,birthday,Resident Evil: Afterlife
+chill,friends,"Drama,Comedy",NC-17,older,holiday,A Parting Shot
+chill,kids,Sci-Fi,PG,recent,holiday,Breaking In
+sad,partner,"Romance,Sci-Fi",R,mid,casual,The Night We Never Met
+happy,family,Romance,G,recent,party,Courage
+happy,friends,Romance,PG,mid,casual,Salome's Last Dance
+happy,family,"Horror,Sci-Fi",NC-17,older,casual,The Architect
+sad,kids,"Drama,Sci-Fi",G,mid,holiday,Houdini
+sad,kids,Comedy,"G,PG-13",older,birthday,The Foxy Merkins
+sad,partner,Romance,"PG,PG-13",mid,holiday,Love the Hard Way
+happy,friends,"Sci-Fi,Horror,Action","PG,PG-13",recent,me-time,Never Give a Sucker an Even Break
+happy,kids,"Drama,Sci-Fi",R,older,birthday,Once Upon a Time in Mumbaai
+thrilled,partner,"Comedy,Drama",G,mid,holiday,Sign Painters
+thrilled,partner,"Sci-Fi,Action,Comedy","R,PG",recent,holiday,Spud
+sad,alone,"Drama,Romance",PG-13,classic,date,Grill Point
+thrilled,family,Comedy,"R,PG",older,party,Hot Times at Montclair High
+sad,partner,"Sci-Fi,Comedy,Horror",PG-13,recent,date,The Seventh Fire
+happy,friends,"Drama,Sci-Fi,Comedy",G,mid,holiday,Starship
+thrilled,partner,Horror,"G,PG-13",classic,party,Scooby-Doo and the Ghoul School
+chill,family,Horror,PG-13,recent,casual,Sebbe
+thrilled,friends,"Action,Romance","R,G",older,birthday,The Shuttered Room
+thrilled,partner,"Action,Romance","PG-13,G",classic,casual,Cat Shit One
+sad,alone,Action,"PG,R",classic,casual,Mickey's Orphans
+sad,kids,"Sci-Fi,Comedy,Horror","PG-13,NC-17",recent,holiday,What Love Is
+sad,kids,Comedy,"PG,NC-17",recent,holiday,Premature Burial
+thrilled,kids,Romance,PG,older,date,Simpatico
+happy,alone,Drama,"G,NC-17",older,birthday,Captain America II: Death Too Soon
+happy,family,Romance,PG-13,older,holiday,Ma L'Amore... Sì
+chill,kids,"Romance,Sci-Fi",R,recent,me-time,Kaante
+sad,family,"Horror,Sci-Fi,Drama",G,classic,casual,The Young Stranger
+chill,alone,Comedy,"R,PG",mid,birthday,In Her Line of Fire
+thrilled,friends,"Sci-Fi,Drama","PG-13,NC-17",classic,birthday,Salt of This Sea
+thrilled,alone,Comedy,R,recent,date,Mac & Devin Go to High School
+chill,partner,"Romance,Action,Drama","PG-13,R",older,me-time,2 Guns
+thrilled,partner,"Romance,Comedy","PG-13,R",mid,me-time,A Wednesday!
+thrilled,alone,Action,"NC-17,PG-13",classic,birthday,A Good Woman
+thrilled,alone,Horror,"PG-13,G",older,party,The Strange Little Cat
+chill,partner,Action,"PG,G",older,date,Carry On Teacher
+thrilled,alone,"Sci-Fi,Romance,Horror",R,mid,holiday,Misa mi
+thrilled,partner,"Comedy,Sci-Fi","PG-13,NC-17",mid,holiday,Miami Blues
+sad,alone,Drama,NC-17,classic,holiday,"Cry, Onion!"
+chill,alone,"Horror,Drama","G,R",recent,me-time,Aroused
+thrilled,family,"Comedy,Action",NC-17,older,casual,Birth of the Living Dead
+sad,family,"Comedy,Sci-Fi,Drama","R,NC-17",older,party,So Big
+thrilled,friends,Sci-Fi,PG-13,recent,birthday,Traitors
+chill,alone,Horror,"G,R",classic,casual,Dark Fortune
+sad,kids,"Drama,Sci-Fi,Horror",PG-13,classic,holiday,Ruins
+chill,family,Horror,PG-13,recent,birthday,Loving Annabelle
+thrilled,friends,"Sci-Fi,Comedy","G,PG-13",mid,birthday,Archipelago
+chill,kids,Sci-Fi,"G,PG-13",classic,holiday,Babylon 5: Thirdspace
+happy,alone,Drama,"R,PG",older,party,Life as a House
+chill,kids,Action,"NC-17,R",classic,me-time,The White Ship
+happy,alone,"Sci-Fi,Horror","PG,NC-17",recent,me-time,The Road Home
+thrilled,partner,Romance,PG,recent,holiday,Miss Potter
+happy,partner,"Horror,Action,Sci-Fi","PG,G",mid,date,Death Is My Trade
+chill,alone,"Sci-Fi,Comedy","G,PG",recent,me-time,The Fugitive
+chill,kids,"Drama,Sci-Fi,Horror","NC-17,R",mid,holiday,Christmas Land
+sad,family,"Romance,Horror",PG-13,recent,casual,Goin' Down the Road
+sad,friends,Comedy,"NC-17,PG",recent,casual,Pioneers in Ingolstadt
+thrilled,family,"Drama,Action",R,classic,date,Eight Days a Week
+chill,family,Drama,R,older,me-time,Beautiful Days
+thrilled,alone,"Horror,Drama","PG-13,R",recent,me-time,Back in the Day
+thrilled,partner,"Comedy,Drama,Horror","NC-17,R",classic,holiday,Fascination
+happy,alone,"Horror,Sci-Fi","R,NC-17",older,casual,George's Island
+sad,family,"Action,Romance",G,classic,birthday,Girlfriend Boyfriend
+happy,alone,Sci-Fi,"PG,R",mid,party,Oriental Elegy
+happy,alone,Comedy,"R,NC-17",mid,me-time,Superman and the Mole-Men
+happy,family,"Romance,Action",NC-17,older,date,Witchery
+chill,friends,"Sci-Fi,Drama,Comedy",R,older,party,Diary of a Wimpy Kid
+thrilled,family,Drama,"PG,G",older,party,Breaking The Surface: The Greg Louganis Story
+happy,alone,"Horror,Action,Comedy",PG-13,older,holiday,The Importance of Tying Your Own Shoes
+happy,family,Action,G,classic,date,Fists of Legend
+chill,friends,Horror,"PG-13,NC-17",mid,date,Pu-239
+happy,partner,Horror,G,mid,date,Badding
+happy,kids,Action,"PG,NC-17",classic,me-time,On the Other Side
+sad,family,Drama,"PG,G",mid,me-time,Journey 2: The Mysterious Island
+thrilled,family,"Sci-Fi,Drama","NC-17,PG-13",older,casual,My Stuff
+thrilled,family,Action,"PG,R",recent,date,Rambo III
+happy,friends,"Horror,Drama,Action",PG-13,classic,casual,Ghayal
+chill,friends,"Sci-Fi,Action,Romance","G,R",older,date,McLintock!
+thrilled,alone,"Action,Sci-Fi",R,recent,casual,Merry Madagascar
+chill,kids,Horror,PG-13,mid,party,Echo Planet
+happy,friends,"Sci-Fi,Action,Comedy","R,G",mid,birthday,Winterhawk
+sad,friends,"Sci-Fi,Drama","PG,PG-13",recent,party,Song to Song
+thrilled,friends,Comedy,"NC-17,G",recent,party,Traffic
+happy,alone,"Comedy,Romance,Horror","G,PG-13",recent,birthday,The Unemployment Club
+chill,kids,"Action,Horror",R,mid,casual,Drei Mann in einem Boot
+chill,alone,"Romance,Drama",NC-17,recent,party,Tini: The New Life of Violetta
+thrilled,alone,"Romance,Sci-Fi,Action","PG,G",recent,date,Simple Things
+thrilled,partner,"Sci-Fi,Action,Drama","PG,NC-17",older,casual,Batman vs. Robin
+thrilled,kids,"Romance,Horror","PG-13,NC-17",mid,party,Clockwise
+thrilled,family,"Sci-Fi,Comedy,Horror","NC-17,PG-13",recent,holiday,Sharkansas Women's Prison Massacre
+happy,kids,Comedy,R,recent,birthday,By the Light of the Silvery Moon
+sad,friends,"Sci-Fi,Romance,Comedy",NC-17,classic,birthday,NY77: The Coolest Year in Hell
+sad,partner,"Horror,Romance",NC-17,classic,me-time,Spy Time
+sad,family,"Horror,Comedy,Romance","PG-13,PG",recent,party,Time Bandits
+thrilled,family,"Romance,Comedy,Action","NC-17,R",older,holiday,God Grew Tired of Us
+sad,friends,"Horror,Sci-Fi",PG,mid,date,Angel's Fall
+sad,friends,"Romance,Comedy,Sci-Fi",NC-17,classic,date,Carson City
+chill,family,"Horror,Drama,Comedy","PG,R",classic,party,Shanghai Ghetto
+thrilled,alone,"Drama,Horror",PG,mid,holiday,Barbie: A Perfect Christmas
