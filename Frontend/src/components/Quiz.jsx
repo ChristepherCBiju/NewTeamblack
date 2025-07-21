@@ -15,6 +15,7 @@ import {
   CircularProgress
 } from "@mui/material";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Quiz = () => {
   const [step, setStep] = useState(0);
@@ -24,9 +25,10 @@ const Quiz = () => {
   const [ratings, setRatings] = useState([]);
   const [releaseRange, setReleaseRange] = useState("");
   const [occasion, setOccasion] = useState("");
-  const [recommendations, setRecommendations] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  const navigate = useNavigate();
 
   const allGenres = ["Action", "Comedy", "Drama", "Sci-Fi", "Horror", "Romance"];
   const allRatings = ["G", "PG", "PG-13", "R", "NC-17"];
@@ -46,7 +48,7 @@ const Quiz = () => {
   const handleSubmit = async () => {
     setLoading(true);
     setError("");
-    setRecommendations([]);
+
     try {
       const response = await axios.post("http://localhost:5000/predict", {
         mood,
@@ -58,10 +60,14 @@ const Quiz = () => {
       });
 
       const result = response.data.recommendation;
-      setRecommendations(Array.isArray(result) ? result : [result]);
+      if (result && result.length > 0) {
+        navigate("/recommendations", { state: { recommendations: result } });
+      } else {
+        setError("No recommendations found.");
+      }
     } catch (err) {
-      setError("⚠️ Failed to fetch recommendations. Please try again.");
       console.error(err);
+      setError("⚠️ Failed to fetch recommendations. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -111,7 +117,6 @@ const Quiz = () => {
               Movie Preference Quiz
             </Typography>
 
-            {/* Step 0: Mood */}
             {step === 0 && (
               <FormControl fullWidth margin="normal">
                 <FormLabel sx={{ color: "#ccc" }}>What's your current mood?</FormLabel>
@@ -129,7 +134,6 @@ const Quiz = () => {
               </FormControl>
             )}
 
-            {/* Step 1: Company */}
             {step === 1 && (
               <FormControl fullWidth margin="normal">
                 <FormLabel sx={{ color: "#ccc" }}>Who are you watching with?</FormLabel>
@@ -147,7 +151,6 @@ const Quiz = () => {
               </FormControl>
             )}
 
-            {/* Step 2: Genres (Checkboxes) */}
             {step === 2 && (
               <FormControl fullWidth margin="normal">
                 <FormLabel sx={{ color: "#ccc" }}>Select your preferred genres</FormLabel>
@@ -170,7 +173,6 @@ const Quiz = () => {
               </FormControl>
             )}
 
-            {/* Step 3: Ratings (Checkboxes) */}
             {step === 3 && (
               <FormControl fullWidth margin="normal">
                 <FormLabel sx={{ color: "#ccc" }}>
@@ -195,7 +197,6 @@ const Quiz = () => {
               </FormControl>
             )}
 
-            {/* Step 4: Release Range */}
             {step === 4 && (
               <FormControl fullWidth margin="normal">
                 <FormLabel sx={{ color: "#ccc" }}>Preferred movie release range</FormLabel>
@@ -211,7 +212,6 @@ const Quiz = () => {
               </FormControl>
             )}
 
-            {/* Step 5: Occasion */}
             {step === 5 && (
               <FormControl fullWidth margin="normal">
                 <FormLabel sx={{ color: "#ccc" }}>What's the occasion?</FormLabel>
@@ -267,20 +267,6 @@ const Quiz = () => {
               <Typography color="error" sx={{ mt: 2 }}>
                 {error}
               </Typography>
-            )}
-
-            {/* Recommendations */}
-            {recommendations.length > 0 && (
-              <div style={{ marginTop: 30 }}>
-                <Typography variant="h6" sx={{ color: "#fff" }}>
-                  🎬 Recommended Movies:
-                </Typography>
-                {recommendations.map((movie, index) => (
-                  <Typography key={index} sx={{ color: "#ccc" }}>
-                    • {movie}
-                  </Typography>
-                ))}
-              </div>
             )}
           </CardContent>
         </Card>

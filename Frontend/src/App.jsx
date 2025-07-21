@@ -20,6 +20,8 @@ import About from './components/About';
 import HeroCarousel from './components/HeroCarousel';
 import MovieDetail from './components/MovieDetail';
 import Contact from './components/Contact';
+import RecommendationsSlider from "./components/RecommendationsSlider";
+
 
 const theme = createTheme({
   palette: {
@@ -75,6 +77,8 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
+          <Route path="/recommendations" element={<RecommendationsSlider />} />
+
           <Route
             path="/admin"
             element={user?.role === 'admin' ? <AdminDashboard /> : <Navigate to="/login" />}

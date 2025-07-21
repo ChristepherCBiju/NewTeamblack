@@ -48,3 +48,7 @@ df["final_mood"] = df.apply(combine_moods, axis=1)
 df[["title", "genres", "overview", "final_mood"]].to_csv("labeled_movies.csv", index=False)
 
 print("✅ Movies labeled with mood and saved to labeled_movies.csv")
+
+df["poster_path"] = df["poster_path"].apply(lambda p: f"https://image.tmdb.org/t/p/w500{p}" if pd.notna(p) and p != 'nan' else "")
+
+df[["title", "genres", "overview", "final_mood", "poster_path"]].to_csv("labeled_movies.csv", index=False)
