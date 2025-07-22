@@ -20,7 +20,9 @@ import About from './components/About';
 import HeroCarousel from './components/HeroCarousel';
 import MovieDetail from './components/MovieDetail';
 import Contact from './components/Contact';
+
 import RecommendationsSlider from "./components/RecommendationsSlider";
+import ForgotPassword from './components/ForgotPassword';
 
 
 const theme = createTheme({
@@ -83,6 +85,7 @@ export default function App() {
             path="/admin"
             element={user?.role === 'admin' ? <AdminDashboard /> : <Navigate to="/login" />}
           />
+          <Route path="/forgotpassword" element={<ForgotPassword />} />
         </Routes>
       </Router>
     </ThemeProvider>

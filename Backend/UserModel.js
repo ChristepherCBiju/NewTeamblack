@@ -8,7 +8,8 @@ const userSchema = new mongoose.Schema({
   phone: { type: String },
   gender: { type: String },
   role: { type: String, default: 'user' },
-  isActive: { type: Boolean, default: true } 
+  isActive: { type: Boolean, default: true },
+  watched: { type: [Object], default: [] }
 });
 
 

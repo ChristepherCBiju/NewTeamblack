@@ -123,6 +123,63 @@ app.post("/remove-user", async (req, res) => {
   }
 });
 
+app.post("/add-watched", async (req, res) => {
+  const { userId, movie } = req.body;
+  if (!userId || !movie) {
+    return res.status(400).json({ error: "Missing userId or movie data" });
+  }
+  try {
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    // Removed duplicate check to allow adding any number of movies
+    user.watched.push(movie);
+    await user.save();
+    res.json({ message: "Movie added to watched list" });
+  } catch (error) {
+    console.error("Error adding movie to watched list:", error);
+    res.status(500).json({ error: "Failed to add movie to watched list" });
+  }
+});
+
+app.post("/remove-watched", async (req, res) => {
+  const { userId, movieId, movieTitle } = req.body;
+  if (!userId || (!movieId && !movieTitle)) {
+    return res.status(400).json({ error: "Missing userId or movie identifier" });
+  }
+  try {
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    if (movieId) {
+      user.watched = user.watched.filter((m) => m.id !== movieId);
+    } else if (movieTitle) {
+      user.watched = user.watched.filter((m) => m.title !== movieTitle);
+    }
+    await user.save();
+    res.json({ message: "Movie removed from watched list" });
+  } catch (error) {
+    console.error("Error removing movie from watched list:", error);
+    res.status(500).json({ error: "Failed to remove movie from watched list" });
+  }
+});
+
+app.get("/watched/:userId", async (req, res) => {
+  const { userId } = req.params;
+  try {
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+    res.json({ watched: user.watched || [] });
+  } catch (error) {
+    console.error("Error fetching watched list:", error);
+    res.status(500).json({ error: "Failed to fetch watched list" });
+  }
+});
+
 app.listen(port, () => {
   console.log(` Server running on http://localhost:${port}`);
 });

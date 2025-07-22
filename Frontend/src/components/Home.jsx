@@ -26,9 +26,11 @@ const Home = ({ user }) => {
           Discover what to watch next based on your mood and favorites.
         </Typography>
         <Box mt={3}>
-          <Button variant="contained" color="primary" size="medium" href="/quiz" sx={{ mr: 1 }}>
-            Take the Quiz
-          </Button>
+          {user?.role !== 'admin' && (
+            <Button variant="contained" color="primary" size="medium" href="/quiz" sx={{ mr: 1 }}>
+              Take the Quiz
+            </Button>
+          )}
           {!user && (
             <Button variant="outlined" color="primary" href="/login" sx={{ mr: 1 }}>
               Login OR Signup

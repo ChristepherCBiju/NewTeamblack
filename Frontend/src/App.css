@@ -21,3 +21,15 @@ body::before {
   background: rgba(0, 0, 0, 0.85);
   
 }
+.tux{
+  margin-top: 100px;
+
+
+    position: absolute;
+
+ 
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+
+}

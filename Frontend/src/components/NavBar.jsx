@@ -17,6 +17,43 @@ const Navbar = ({ user, setUser }) => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [users, setUsers] = useState([]);
   const [error, setError] = useState('');
+  const [watched, setWatched] = useState([]);
+
+  useEffect(() => {
+    if (user) {
+      fetchWatched();
+    }
+
+    // Listen for watched list update events
+    const handleWatchedListUpdated = () => {
+      fetchWatched();
+    };
+    window.addEventListener('watchedListUpdated', handleWatchedListUpdated);
+
+    return () => {
+      window.removeEventListener('watchedListUpdated', handleWatchedListUpdated);
+    };
+  }, [user]);
+
+  const fetchWatched = async () => {
+    try {
+      const response = await fetch(`http://localhost:3030/watched/${user.id}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch watched list');
+      }
+      const data = await response.json();
+      setWatched(data.watched);
+      setError('');
+    } catch (err) {
+      setError('Failed to fetch watched list');
+    }
+  };
+
+  useEffect(() => {
+    if (user && user.role === 'admin') {
+      fetchUsers();
+    }
+  }, [user]);
 
   useEffect(() => {
     if (user && user.role === 'admin') {
@@ -52,6 +89,11 @@ const Navbar = ({ user, setUser }) => {
     } catch (err) {
       setError('Network error');
     }
+  };
+
+  // Expose fetchWatched to be called externally to refresh watched list
+  const refreshWatched = () => {
+    fetchWatched();
   };
 
   const handleMenuOpen = (event) => {
@@ -96,8 +138,12 @@ const Navbar = ({ user, setUser }) => {
 
         <Box>
           <Button component={Link} to="/" color="primary">Home</Button>
-          <Button component={Link} to="/quiz" color="primary">Quiz</Button>
-          <Button component={Link} to="/watched" color="primary">Watched</Button>
+          {user?.role !== "admin" && (
+            <>
+              <Button component={Link} to="/quiz" color="primary">Quiz</Button>
+              <Button component={Link} to="/watched" color="primary">Watch list</Button>
+            </>
+          )}
           <Button component={Link} to="/about" color="primary">About</Button>
           {user && user.role === "admin" && (
             <>

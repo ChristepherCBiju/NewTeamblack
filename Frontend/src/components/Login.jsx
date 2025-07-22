@@ -122,7 +122,7 @@ const Login = ({ setUser }) => {
               />
 
               <Button
-                href="/forgot-password"
+                href="/forgotpassword"
                 sx={{
                   mt: 1,
                   mb: 2,

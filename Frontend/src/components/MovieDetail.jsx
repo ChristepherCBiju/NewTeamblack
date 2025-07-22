@@ -31,34 +31,57 @@ const MovieDetail = () => {
 
   if (loading) {
     return (
-      <Box textAlign="center" mt={10}>
-        <CircularProgress />
-        <Typography color="white">Loading movie...</Typography>
+      <Box
+        sx={{
+          minHeight: '100vh',
+          backdropFilter: 'blur(1px)',
+          backgroundColor: 'rgba(0, 0, 0, 0.3)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          color: 'white',
+        }}
+      >
+        <CircularProgress color="inherit" />
+        <Typography ml={2}>Loading movie...</Typography>
       </Box>
     );
   }
 
   if (!movie) {
     return (
-      <Box textAlign="center" mt={10}>
-        <Typography color="white">❌ Movie not found.</Typography>
+      <Box
+        sx={{
+          minHeight: '100vh',
+          backdropFilter: 'blur(1px)',
+          backgroundColor: 'rgba(0, 0, 0, 0.3)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          color: 'white',
+        }}
+      >
+        <Typography>❌ Movie not found.</Typography>
       </Box>
     );
   }
 
   return (
     <Box
-      p={3}
       sx={{
+        minHeight: '100vh',
+        backdropFilter: 'blur(1px)',
+        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+        color: 'white',
+        padding: '2rem',
         display: 'flex',
         flexDirection: 'row',
-        gap: 4,
         flexWrap: 'wrap',
-        color: 'white',
+        gap: '2rem',
       }}
     >
-      {/* Poster */}
-      <Box sx={{ maxWidth: '300px' }}>
+      {/* Movie Poster */}
+      <Box sx={{ maxWidth: '300px', flex: '1 1 300px' }}>
         <img
           src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
           alt={movie.title}
@@ -66,12 +89,18 @@ const MovieDetail = () => {
         />
       </Box>
 
-      {/* Details */}
-      <Box sx={{ flex: 1 }}>
+      {/* Movie Details */}
+      <Box sx={{ flex: 2, minWidth: '300px' }}>
         <Button
           variant="outlined"
-          color="primary"
-          sx={{ mb: 2, alignSelf: 'flex-start' }}
+          sx={{
+            mb: 2,
+            color: 'yellow',
+            borderColor: 'yellow',
+            '&:hover': {
+              backgroundColor: 'rgba(255,255,0,0.1)',
+            },
+          }}
           onClick={() => navigate(-1)}
         >
           ← Back
@@ -81,7 +110,7 @@ const MovieDetail = () => {
           {movie.title}
         </Typography>
 
-        <Typography variant="subtitle1" color="text.secondary">
+        <Typography variant="subtitle1" sx={{ color: '#ccc', mb: 1 }}>
           ⭐ Rating: {movie.vote_average} | 🗓 Release: {movie.release_date}
         </Typography>
 
@@ -93,7 +122,9 @@ const MovieDetail = () => {
         </Stack>
 
         {/* Overview */}
-        <Typography mt={2}>{movie.overview}</Typography>
+        <Typography mt={2} sx={{ lineHeight: 1.6 }}>
+          {movie.overview}
+        </Typography>
       </Box>
     </Box>
   );
