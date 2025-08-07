@@ -1,6 +1,6 @@
-# 📽️ NewTeamblack
+# 📽️ PopcornPix
 
-NewTeamblack is a full-stack movie recommendation web application that suggests movies to users based on data analysis and machine learning. It integrates a React frontend, a Node.js backend, and Python-based machine learning models trained on real-world movie datasets.
+PopcornPix is a full-stack movie recommendation web application that suggests movies to users based on data analysis and machine learning. It integrates a React frontend, a Node.js backend, and Python-based machine learning models trained on real-world movie datasets.
 
 ## 📌 Features
 
