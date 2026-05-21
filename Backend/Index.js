@@ -11,6 +11,7 @@ const User = require("./UserModel");
 app.use(cors());
 app.use(express.json());
 
+
 (async () => {
   try {
     const adminUser = await User.findOne({ username: "admin" });
